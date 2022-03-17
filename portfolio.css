@@ -12,7 +12,7 @@ header h1 {
     font-size: 40px;
     color: rgb(184, 179, 179);
     position: relative;
-    /* left: 50px; */
+    left: 50px;
     top: 25px;
 }
 .nie {
@@ -22,7 +22,6 @@ header a {
     font-size: 20px;
     font-weight: bold;
     position: relative;
-    /* left: 850px; */
     bottom: 50px;
     padding: 20px;
     float: right;
