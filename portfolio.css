@@ -3,6 +3,7 @@
 header {
     background-color: rgb(12, 133, 189);
     padding: 1px;
+    flex: 1 1 auto;
 }
 body {
     background-color: rgba(200, 216, 231, 0.993);
@@ -11,8 +12,8 @@ header h1 {
     font-size: 40px;
     color: rgb(184, 179, 179);
     position: relative;
-    left: 50px;
-    top: 10px;
+    /* left: 50px; */
+    top: 25px;
 }
 .nie {
     color: rgb(65, 65, 204);
@@ -21,30 +22,30 @@ header a {
     font-size: 20px;
     font-weight: bold;
     position: relative;
-    left: 850px;
+    /* left: 850px; */
     bottom: 50px;
     padding: 20px;
-    
+    float: right;
 }
 section {
     text-align: center;
     border: solid;
     border-width: 1px;
-    width: 1100px;
-    margin: 15px;
+    width: 85%;
+    margin: auto;
     position: relative;
-    left: 160px;
     transform: skew(-20deg);
     box-shadow: 15px 15px 10px;
     border-color: aqua;
     padding: 20px;
+    flex: 1 1 auto;
 }
 img {
-    width: 300px;
+    width: 150px;
     float: right;
     position: relative;
-    bottom: 150px;
-    right: 30px;
+    bottom: 50px;
+    right: 170px;
 }
 p {
     text-align: left;
@@ -57,4 +58,17 @@ footer {
 }
 footer p {
     text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.a-b {
+    padding: 1px;
+}
+#p {
+   position: relative;
+   left: 250px;
+   top: 15px;
 }
