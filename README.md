@@ -7,7 +7,7 @@ Once on the page, clicking on ".Portfolio" will load the second page that contai
 
 The image under the resume section is clickable. 
 
-Include an active navbar and a link "|Home|" at the botton of the page that can take you back to the first page.
+Include an active navbar and a link "|Home Page|" at the botton of the page that can take you back to the first page.
 
 
 ![IMG_0742](https://user-images.githubusercontent.com/101056987/158947649-62aed307-f18f-4270-9b50-26b311527cc8.jpg)
