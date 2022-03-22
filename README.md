@@ -1,5 +1,5 @@
 # E.Brith-s-Portfolio
-Showcase my skills and talents.
+Showcase the developer's skills and talents.
 
 Includes contact information.
 
