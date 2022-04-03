@@ -14,11 +14,12 @@
         <h3>Brithnie</h3>
         <div class="brightness-preferences"></div>
         <img src="./assets/images/icons/menu.png" alt="Menu-Bar" class="menu-bar">
-        <ul class="menu-card">
+        <ul class="menu-card"> <!-- style="visibility: hidden;"-->
+            <!-- <li><a class="item" href="#services" style="text-decoration: none;">◆Services</a></li> -->
             <li><a class="item" href="#about-me" style="text-decoration: none;">◆About me</a></l1>
             <li><a class="item" href="#skills" style="text-decoration: none;">◆Skills</a></li>
-            <li><a class="item" href="#services" style="text-decoration: none;">◆Services</a></li>
             <li><a class="item" href="#portfolio" style="text-decoration: none;">◆Portfolio</a></li>
+            <li><a class="item" href="#home" style="text-decoration: none;">◆Home</a></li>
         </ul>
     </div>
 
@@ -26,50 +27,73 @@
         <section class="columns">
             <!-- Profile -->
             <div class="col-3">
-                <img src="./assets/images/icons/linkedin.png" alt="Linkedin" class="linked-in">
+                <a href="https://www.linkedin.com/in/brithnieestime/"><img src="./assets/images/icons/linkedin.png" alt="Linkedin" class="linked-in"></a>
                 <br>
-                <img src="./assets/images/icons/github.png" alt="GitHub" class="github">
+                <a href="https://github.com/EstimeB"><img src="./assets/images/icons/github.png" alt="GitHub" class="github"></a>
                 <br>
-                <img src="./assets/images/icons/resume.png" alt="Resume" class="resume">
+                <a href="./assets/pdf/E.Brith's Resume.pdf"><img src="./assets/images/icons/resume.png" alt="Resume" class="resume"></a>
 
             </div>
             <div class="col-9"><img src="./assets/images/img.jpeg" alt="E.Brith's Photo"></div>
         </section>
+
         <br>
-        <div class="row">
+
+        <div class="row" id="home">
             <h1>Brith<span class="nie">nie </span>Estime</h1>
             <h3>Full Stack Web Developer</h3>
             <p>Knowledgeable but not quite the experienced Developer yet.</p>
         </div>
+
         <button class="contact-button"><a class="item" href="#contact">Contact</a></button>
+
         <section id="about-me">
             <h2>About me</h2>
+            <img src="./assets/images/gifs/54313f603114ee4fdb479268e8f18637.gif" alt="growing-flower-gif" class="gif"></img>
             <p>Will soon graduate from full stack academy. Currently learning and will soon be an expert in the ins and
-                outs of the web. Expected to be an outstanding designer.</p>
+                outs of the web. Expect to be an outstanding designer.</p>
         </section>
+
         <section id="skills">
             <h2>Skills</h2>
-            <p>Will soon improve/obtain crucial skills such as the web literacy, strong creative ability, attention to
-                detail, excellent problem-solving skills, communication skills, logical approach to work, the ability to
+            <p>Posses strong creative ability, attention to
+                detail, excellent problem-solving skills, communication skills. Will soon improve/obtain crucial skills such as the web literacy,  logical approach to work, the ability to
                 explain technical matters clearly, and more. I will be familiar with all and expert in most of the
                 programing languages and skills (Python, JavaScript, HTML, CSS, SQL, jQuery, Bootstrap, Node.js, MySQL,
                 MongoDB, React, and more.).</p>
         </section>
-    
-        <footer class="footer">
-            <!-- <a class="item" href="#about-me" style="text-decoration: none;">About me</a>
-            <a class="item" href="#skills" style="text-decoration: none;">Skills</a>
-            <a class="item" href="#resume" style="text-decoration: none;">Resume</a>
-            <a class="item" href="#contact" style="text-decoration: none;">Contact</a> -->
-        
-            <section id="contact">
-                <h2>Contact</h2>
-                <ol>
-                    <p><span style="font-weight: bolder;">Email:</span>estimebrithnie@yahoo.com</p>
-                    <p><span style="font-weight: bolder;">Phone:</span>(760)267-7388</p>
-                </ol>
-            </section>
 
+        <section class="portfolio">
+            <h2 id="portfolio">Portfolio</h2>
+            <ol>
+                <a href="https://supbake.github.io/group_project_one/"><img src="./assets/images/g-p-1.jpg" alt="group-project-one_page-img" class="p-img" style="width: 300px;"></a>
+                <a href="https://estimeb.github.io/Code-Quiz-Project/"><img src="./assets/images/c-q.jpg" alt="code-quiz_page-img" class="p-img" style="width: 300px;"></a>
+                <a href="https://estimeb.github.io/JS-Project_Password-Generator/"><img src="./assets/images/p-g.jpg" alt="password-generator_page-img" class="p-img" style="width: 300px;"></a>
+            </ol>
+            <h3>Projects</h3>
+            <p>Web pages' fit most screen size. Scroll for more images and click on each for demonstration.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <ol>
+                <p><span style="font-weight: bolder;">Email:</span> estimebrithnie@yahoo.com</p>
+                <p><span style="font-weight: bolder;">Phone:</span> (760)267-7388</p>
+            </ol>
+        </section>
+
+        <footer class="footer">
+            <h1>Brithnie</h1>
+            <p>Full Stack Web Developer</p>
+            <br>
+            <!-- <h4><a class="item" href="#services" style="text-decoration: none;">Services</a></h4>
+            <br> -->
+            <h4><a class="item" href="#portfolio" style="text-decoration: none;">Portfolio</a></h4>
+            <!-- <br> -->
+            <h4><a class="item" href="#contact" style="text-decoration: none;">Contact Me</a></h4>
+            <br><br><!--<br><br><br><br>-->
+            <div class="all-right-reserved">&copy; E. Brith 2022</div>
+            <br><br>
         </footer>
     </main>
 </body>
