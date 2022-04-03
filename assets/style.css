@@ -38,12 +38,12 @@ body {
 
 /* Contact button */
 .contact-button {
-    margin-left: 27%;
+    margin-left: 28%;
     background-color: rgb(77, 159, 159);
     padding: 13px;
     width: 45%;
     margin-top: 45px;
-    margin-bottom: 55px;
+    margin-bottom: 45px;
 }
 .item {
     color: blue;
@@ -63,7 +63,7 @@ body {
 .fixed-navbar a:hover {} */
 .fixed-navbar h3 {
     position: relative;
-    top: 29.7px;
+    top: 10px;
     left: 7px;
     color: rgb(141, 178, 178);
 }
@@ -72,7 +72,7 @@ body {
     display: inline-flex;
     gap: 7px;
     position: relative;
-    /* left: 0px; */
+    /* left: -50px; */
     bottom: 38px;
 }
 .menu-card a {
@@ -116,7 +116,51 @@ p {
 h2 {
     text-align: center;
 }
-
+.gif {
+    height: 150px;
+    width: 200px;
+    margin-left: 24%;
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: rgb(86, 138, 160);
+    width: 100%;
+    padding-bottom: 1px;
+    margin-left: 7.5px;
+}
+.portfolio {
+    /* border: solid; */
+}
+.portfolio ol {
+    display: flex;
+    gap: 15px;
+    overflow-x: scroll;
+}
+.portfolio p {
+    margin-top: -22px;
+    margin-bottom: 50px;
+}
+.contact ol {
+    list-style-type: none;
+}
+.footer h1 {
+    color: blue;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.footer a {
+    color: black;
+}
+.footer p {
+    padding-left: 20px;
+    margin-top: -30px;
+}
+.footer h4 {
+    padding-left: 20px;
+}
+.all-right-reserved {
+    text-align: center;
+}
 
 
 
