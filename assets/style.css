@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+   box-sizing: border-box;
+   font-family: 'Shadows Into Light', cursive;
+}
+body {
+    background-color: rgb(184, 214, 214);
+    padding-bottom: 110px;
+    /* text-align: center; */
+
+}
+.col-3 {
+    float: left;
+    padding: 15px;
+    /* border: solid; */
+    margin-top: 115px;
+}
+.col-3 img {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+}
+.col-9 {
+    float: left;
+    padding: 15px;
+}
+.col-9 img {
+    width: 170px;
+    height: 250px;
+    border-radius: 100px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    /* align-content: center; */
+    /* position: relative; */
+}
+
+/* Contact button */
+.contact-button {
+    margin-left: 27%;
+    background-color: rgb(77, 159, 159);
+    padding: 13px;
+    width: 45%;
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+.item {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Nav bar */
+.fixed-navbar {
+    overflow: hidden;
+    background-color: rgb(19, 97, 130);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: -8px;
+}
+/* .fixed-navbar:hover {}
+.fixed-navbar a:hover {} */
+.fixed-navbar h3 {
+    position: relative;
+    top: 29.7px;
+    left: 7px;
+    color: rgb(141, 178, 178);
+}
+.menu-card {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 7px;
+    position: relative;
+    /* left: 0px; */
+    bottom: 38px;
+}
+.menu-card a {
+    text-decoration: none;
+    color: blue;
+}
+.menu-card a:hover {
+    color: aqua;
+}
+/* main {
+    padding: 16px;
+    margin-bottom: 30px;
+    height: 1500px;
+} */
+.menu-bar {
+    background-color: rgb(183, 200, 211);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 327px;
+    bottom: 25px;
+}
+
+/*  */
+.row h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: -35px;
+}
+.row h3 {
+    text-align: center;
+    font-size: 21.5px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    text-align: center;
+}
+
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
