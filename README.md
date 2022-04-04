@@ -1,15 +1,15 @@
 # E.Brith-s-Portfolio
 Showcase the developer's skills and talents.
 
-Includes contact information.
+Includes the developer's full name, about them, skills, resume, github, linkedin, and contact information.
 
-Once on the page, clicking on ".Portfolio" will load the second page that contain the developer's name, about them, skills, and resume sections.
+The list on the navbar and the icons on the side bar are clickable. 
 
-The image under the resume section is clickable. 
+The incons include active navbar links to the developper's profiles.
 
-Include an active navbar and a link "|Home Page|" at the botton of the page that can take you back to the first page.
+# Demo
 
-
-![IMG_0742](https://user-images.githubusercontent.com/101056987/158947649-62aed307-f18f-4270-9b50-26b311527cc8.jpg)
-![IMG_0744](https://user-images.githubusercontent.com/101056987/158947657-64d56fd7-a91a-422e-9138-0c0cf0b31850.jpg)
-![IMG_0743 copy](https://user-images.githubusercontent.com/101056987/159588539-41f004f5-b1ae-45ad-b210-464c4b0a1c24.jpg)
+![Screen Shot 2022-04-04 at 12 54 47](https://user-images.githubusercontent.com/101056987/161627426-306fecdc-6492-499a-83db-da4da526ba5c.jpeg)
+![Screen Shot 2022-04-04 at 12 54 57](https://user-images.githubusercontent.com/101056987/161627456-d4b23cca-304e-4df5-bc8f-b745d0a37b2c.jpeg)
+![Screen Shot 2022-04-04 at 12 57 37](https://user-images.githubusercontent.com/101056987/161627469-541a9f95-195e-40af-8969-58a1edccddf0.jpeg)
+![Screen Shot 2022-04-04 at 12 58 12](https://user-images.githubusercontent.com/101056987/161627494-e94a2b6c-47b4-48f8-8744-d1aea5e56f20.jpeg)
