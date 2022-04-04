@@ -8,6 +8,8 @@ The list on the navbar and the icons on the side bar are clickable.
 The incons include active navbar links to the developper's profiles.
 
 # Demo
+https://estimeb.github.io/E.Brith-s-Portfolio/
+
 
 ![Screen Shot 2022-04-04 at 12 54 47](https://user-images.githubusercontent.com/101056987/161627426-306fecdc-6492-499a-83db-da4da526ba5c.jpeg)
 ![Screen Shot 2022-04-04 at 12 54 57](https://user-images.githubusercontent.com/101056987/161627456-d4b23cca-304e-4df5-bc8f-b745d0a37b2c.jpeg)
