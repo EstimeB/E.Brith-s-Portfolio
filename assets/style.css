@@ -158,7 +158,10 @@ h2 {
 .contact ol {
     list-style-type: none;
 }
-
+.f-sect h1 a {
+    text-decoration: none;
+    color: blue;
+}
 .footer h1 {
     color: blue;
     padding-left: 20px;
@@ -180,6 +183,7 @@ h2 {
 
 .all-right-reserved {
     text-align: center;
+    color: rgb(8, 8, 89);
 }
 
 
