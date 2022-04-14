@@ -1,11 +1,40 @@
 # E.Brith-s-Portfolio
-Showcase the developer's skills and talents.
 
-Includes the developer's full name, about them, skills, resume, github, linkedin, and contact information.
+## Table Of Contents
+* [Installation](#installation)
+* [Description](#description)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-The list on the navbar and the icons on the side bar are clickable. 
+### Description 
+* Page that showcase the developer's skills and talents.
+* Includes a summary of the developer's profile, links that take viewers to the developer's resume, github, linkedin, and contact information (are found on the side bar fixed-bar/header).
 
-The incons include active navbar links to the developper's profiles.
+### Installation 
+ Click on the deployed link. 
+
+### Usage 
+* Click on the icons on the side bar, will open new tabs, taken to github/linkedin profile and/or resume.
+* Click on the fixed-bar/header, will be taken to the corresponding section of the portfolio page.
+
+### License 
+ The Unlicense 
+![License](https://img.shields.io/badge/license-The Unlicense-blue.svg) 
+
+For further information on the license please visit (https://snyk.io/learn/open-source-licenses/)
+
+### Contributing 
+ Estimeb 
+
+### Tests 
+ N/A 
+
+### Questions 
+ Any questions please email me at estimebrithnie@yahoo.com 
+ or visit my [Github Profile](https://github.com/Estimeb)
 
 # Demo
 https://estimeb.github.io/E.Brith-s-Portfolio/
