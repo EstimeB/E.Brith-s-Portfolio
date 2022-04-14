@@ -188,19 +188,22 @@ h2 {
     .main-img {
         float: right;
     }
+
     .row {
         padding-top: 100px;
     }
-   .m-body {
-       columns: 2;
-       border-top: solid;
-   }
+
+    .m-body {
+        columns: 2;
+        border-top: solid;
+    }
 }
 
 @media screen and (min-width: 645px) {
     .row {
         text-align: center;
     }
+
     .contact-button {
         display: block;
         height: 50px;
@@ -208,16 +211,72 @@ h2 {
         text-align: center;
     }
 }
-@media screen and (min-width: 1180px) {
-   .fixed-navbar {
-       position: relative;
-   }
+
+@media screen and (min-width: 730px) {
+    .fixed-navbar {
+        position: relative;
+    }
+
     body {
-       padding-bottom: 0;
-   }
-   .f-sect2 {
-       display: none;
-   }
+        padding-bottom: 0;
+    }
+
+    .f-sect2 {
+        display: none;
+    }
+
+    .main-img img {
+        width: 500px;
+        height: 650px;
+    }
+
+    .m-body {
+        columns: initial;
+    }
+
+    .menu-card {
+        font-size: 30px;
+        left: -50px;
+        gap: 25px;
+    }
+
+    .menu-bar {
+        width: 95px;
+        height: 90px;
+        border-radius: 90px;
+        right: 15px;
+        bottom: 25px;
+    }
+
+    .side-bar img {
+        width: 65px;
+        height: 65px;
+    }
+    .row h1 {
+        font-size: 80px;
+    }
+    
+    .row h3 {
+        font-size: 50px;
+    }
+    
+    p {
+        font-size: 30px;
+        /* text-align: center; */
+    }
+    h2 {
+        font-size: 45px;
+    }
+    .portfolio h3 {
+        font-size: 35px;
+    }
+    .fixed-navbar h3 {
+        font-size: 30px;
+    }
+    .all-right-reserved {
+        font-size: 30px;
+    }
+
 }
 
 
@@ -226,6 +285,8 @@ h2 {
 
 
 
+
+/* Columns */
 .col-1 {
     width: 8.33%;
 }
