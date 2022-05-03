@@ -60,26 +60,27 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin: -8px;
+    /* margin: -8px; */
 }
 
 /* .fixed-navbar:hover {}
 .fixed-navbar a:hover {} */
 .fixed-navbar h3 {
     position: relative;
-    top: 10px;
+    top: 20px;
     left: 7px;
     color: rgb(141, 178, 178);
 }
 
 .menu-card {
     list-style-type: none;
-    display: inline-flex;
-    gap: 7px;
-    position: relative;
-    float: right;
-    left: -30px;
-    bottom: 35px;
+    /* display: inline-flex; */
+    columns: 3;
+    /* gap: 7px; */
+    /* position: relative; */
+    /* float: right; */
+    /* left: -30px; */
+    /* bottom: 35px; */
 }
 
 .menu-card a {
@@ -91,7 +92,7 @@ body {
     color: aqua;
 }
 
-.menu-bar {
+/* .menu-bar {
     background-color: rgb(183, 200, 211);
     width: 40px;
     height: 40px;
@@ -100,7 +101,7 @@ body {
     float: right;
     right: 15px;
     bottom: 25px;
-}
+} */
 
 /*  */
 .row h1 {
@@ -280,7 +281,6 @@ h2 {
     .all-right-reserved {
         font-size: 30px;
     }
-
 }
 
 
