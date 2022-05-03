@@ -1,0 +1,66 @@
+.container {
+  /* display: inline-block; */
+  cursor: pointer;
+  position: relative;
+  float: right;
+  right: 55px;
+  bottom: 50px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.mbarCon {
+  margin-top: 20px;
+  border: solid;
+  height: 80px;
+  align-content: center;
+  display: none;
+  position: fixed;
+  background-color: antiquewhite;
+  bottom: 0;
+  width: 100%;
+  transform: translate(0, -100%);
+}
+@media screen and (min-width: 730px) {
+  .mbarCon {
+    transform: none;
+    position: relative;
+    height: 140px;
+}
+}
+/* Skills' section */
+#skills h3 {
+  text-align: center;
+  font-size: 25px;
+}
+.dropdown-content {
+  display: none;
+}
+.dropdown-cont {
+  display: none;
+}
+.frontEnd p {
+  color:  blue;
+}
