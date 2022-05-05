@@ -26,9 +26,10 @@ body {
     height: 35px;
 }
 
-.main-img {
+/* .main-img img {
     text-align: center;
-}
+    
+} */
 
 .main-img img {
     width: 200px;
@@ -36,6 +37,10 @@ body {
     border-radius: 100px;
     margin-top: 70px;
     margin-bottom: 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: goldenrod;
+    box-shadow: 15px 15px 35px rgb(151, 151, 143);
 }
 
 /* Contact button */
@@ -61,6 +66,8 @@ body {
     bottom: 0;
     width: 100%;
     /* margin: -8px; */
+    border: solid;
+    border-width: 1px;
 }
 
 /* .fixed-navbar:hover {}
@@ -128,6 +135,10 @@ h2 {
 .am-img {
     text-align: center;
 }
+.am-img img {
+    box-shadow: 5px 5px 7px rgb(151, 151, 143);
+
+}
 
 .gif {
     height: 150px;
@@ -145,15 +156,28 @@ h2 {
     text-align: center;
 }
 
-.portfolio ol {
+.portfolio ul {
+    list-style-type: none;
     display: flex;
     gap: 15px;
     overflow-x: scroll;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(86, 138, 160);
+    /* box-shadow: 15px 15px 35px rgb(151, 151, 143); */
+    height: 260px;
+}
+.portfolio li a {
+    text-decoration: none;
+    color: blue;
 }
 
 .portfolio p {
     margin-top: -22px;
     margin-bottom: 50px;
+}
+.portfolio img {
+    box-shadow: 15px 15px 35px rgb(151, 151, 143);
 }
 
 .contact ol {
@@ -186,7 +210,10 @@ h2 {
     text-align: center;
     color: rgb(8, 8, 89);
 }
-
+.footer {
+    border: solid;
+    border-width: 1px;
+}
 
 
 @media screen and (min-width: 575px) {

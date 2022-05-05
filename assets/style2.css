@@ -64,3 +64,6 @@
 .frontEnd p {
   color:  blue;
 }
+.frontEnd p:hover {
+    color: aqua;
+}
