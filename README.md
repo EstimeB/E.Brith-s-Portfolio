@@ -11,26 +11,23 @@
 
 ### Description 
 * Page that showcase the developer's skills and talents.
-* Includes a summary of the developer's profile, links that take viewers to the developer's resume, github, linkedin, and contact information (are found on the side bar fixed-bar/header).
+* Includes a summary of the developer's profile, links that take viewers to the developer's resume, github, linkedin, and contact information.
 
 ### Installation 
  Click on the deployed link. 
 
 ### Usage 
-* Click on the icons on the side bar, will open new tabs, taken to github/linkedin profile and/or resume.
-* Click on the fixed-bar/header, will be taken to the corresponding section of the portfolio page.
+ To showcase developer's skills and talent.
 
 ### License 
- The Unlicense 
-![License](https://img.shields.io/badge/license-The Unlicense-blue.svg) 
-
-For further information on the license please visit (https://snyk.io/learn/open-source-licenses/)
+ MIT license
 
 ### Contributing 
  Estimeb 
 
 ### Tests 
- N/A 
+* Click on the icons on the side bar, will open new tabs, taken to github/linkedin profile and/or resume.
+* Click on the fixed-bar/header's menu icon, a list will pop up and clicking on each will take tester/user to the corresponding section of the portfolio 
 
 ### Questions 
  Any questions please email me at estimebrithnie@yahoo.com 
