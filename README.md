@@ -30,7 +30,7 @@
 * Click on the fixed-bar/header's menu icon, a list will pop up and clicking on each will take tester/user to the corresponding section of the portfolio 
 
 ### Questions 
- Any questions please email me at estimebrithnie@yahoo.com 
+ Any questions please [email me](mailto:estimebrithnie@yahoo.com)
  or visit my [Github Profile](https://github.com/Estimeb)
 
 # Demo
